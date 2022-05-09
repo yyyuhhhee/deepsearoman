@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div id="button" class="button">></div>
+<div id="slide" class="slide">
+    <div id="close" class="close">X</div>
+    <img src="DOC095.png">
+    <img src="DOC107.png">
+    <img src="DOC106.png">
+    <img src="DOC211.png">
+    <img src="DOC213.png">
+    <img src="DOC210.png">
+    <img src="DOC099.png">
+    <img src="DOC098.png">
+    <img src="DOC105.png">
+    <img src="DOC097.png">
+    <img src="DOC104.png">
+    <img src="DOC108.png">
+    <img src="DOC215.png">
+    <img src="DOC103.png">
+    <img src="DOC204.png">
+    <img src="DOC115.png">
+    <img src="DOC214.png">
+    <img src="DOC111.png">
+    <img src="DOC116.png">
+    <img src="DOC101.png">
+    <img src="DOC102.png">
+    
+</div>
+      
+
+<div class="deco">
+    <div class="floating1">A</div>
+    <div class="floating2">B</div>
+    <div class="floating3">C</div>
+    <div class="floating4">D</div>
+    <div class="floating5">E</div>
+    <div class="floating6">F</div>    
+    <div class="floating7">G</div>
+    <div class="floating8">Q</div>
+    <div class="floating9">J</div>
+    <div class="floating10">-</div>
+    <div class="floating11">_</div>
+    <div class="crawl1">M</div>
+    <div class="crawl2">N</div>
+    <div class="crawl3">V</div>
+    <div class="crawl4">W</div>
+    <div class="still">keexkeskk Xxf g h i ffffhhhhbeiiiiicb    i  iiii bbb</div></div>
+    <div class="aligner">
+    <div class="tt">
+        </select>
+        Font size: 
+        <input type="range" id="size" min="10" max="144" value="20" oninput="updateSize(this.value)">
+        Line Height: 
+        <input type="range" id="size" min="10" max="144" value="26" oninput="updateLineHeight(this.value)">
+      </div>
+      <div class="sample" contenteditable="true" spellcheck="false">
+      <p>
+        ABCDEFGHIJKLMNOPQRSTUVWXY<br>
+        abcdefghijklmnopqrstuvwxyz<br><br>
+        The human world, it's a mess!
+        Life under the sea
+        Is better than anything they got up there-
+        The seaweed is always greener.
+        In somebody else's lake
+        You dream about going up there.
+        But that is a big mistake,
+        Just look at the world around you-
+        Right here on the ocean floor-
+        Such wonderful things surround you-
+        What more is you lookin' for?</p></div>
+      </div>
+
+
+      <script>
+        function updateSize(newVal){
+        var newFontSize = newVal + 'px';
+        $('.sample').css('font-size', newFontSize);
+      }
+      
+      function updateLineHeight(newVal){
+        var newFontSize = newVal + 'px';
+        $('.sample').css('line-height', newFontSize);
+      }
+      
+      function updateFont(newVal) {
+        $('.sample').css('font-family', newVal);
+      }
+
+      const slide = document.getElementById("slide");
+      const button = document.getElementById("button");
+      const close = document.getElementById("close");
+
+
+      function handleClick (){
+        slide.style.width = "40vw";
+      }
+
+      function handleclose (){
+        slide.style.width = "0";
+
+      }
+
+
+      button.addEventListener("click", handleClick);
+      close.addEventListener("click", handleclose);
+
+    </script>
+</body>
+</html>
+

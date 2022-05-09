@@ -1,0 +1,400 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Deepsearoman-Regular.woff2);
+  }
+
+body {
+    background-color: #3dd6e0;
+    font-size: 5vw;
+    font-family: myFirstFont;
+    width: 100vw;
+    word-spacing: 30px;
+    animation-name: bgcolor;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+  
+@keyframes bgcolor {
+    0%   { background-color:#3dd6e0;}
+    50%  {background-color: navy;}
+    100% {background-color:#3dd6e0;}
+  }
+    
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+* {
+    margin: 0; 
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  
+}
+.deco {
+    color: lightgreen;
+    animation-name: ftcolor;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    }
+
+    @keyframes ftcolor {
+        0%   { background-color:red;}
+        50%  {background-color: lightgreen;}
+        100% {background-color:red;}
+      }
+
+  
+  .sample {
+    text-align: center;
+    position: fixed;
+    width: 80vw;
+    height: 40vw;
+    outline: none;
+    margin-top: 60vw;
+    font-size: 3vw;
+    line-height: 6vw;
+    background-color: white;
+    overflow: scroll;
+    box-shadow: 10px 5px 10px red;
+    border-radius: 20px;
+
+  }
+
+  .p ::selection {
+    color:blue;
+    background: red;
+  }
+  
+  
+
+  .tt {
+      margin-top: 20vh;
+      width: 100vw;
+      display: block;
+      text-align: center;
+      position: fixed;
+      font-size: 2vw;
+      color: white;
+  }
+
+  .floating1 {
+      position: fixed;
+      z-index: 11;
+      margin-top: 20vw;
+      margin-left: 70vh;
+      animation-name: float1;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+     
+  }
+
+  @keyframes float1 {
+    0%   { transform: translate(30vw, 50vh);}
+    50%  {transform: translate(30vw, 10vh);}
+    100% {transform: translate(30vw, 50vh);}
+  }
+
+  .floating2 {
+      position: fixed;
+      animation-name: float2;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      z-index: 11;
+  }
+
+  @keyframes float2 {
+    0%   { transform: translate(10vw, 50vh);}
+    50%  {transform: translate(10vw, 10vh);}
+    100% {transform: translate(10vw, 50vh);}
+  }
+
+  .floating3 {
+      position: fixed;
+      animation-name: float3;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      z-index: 11;
+  }
+
+  @keyframes float3 {
+    0%   { transform: translate(40vw, 50vh);}
+    50%  {transform: translate(40vw, 10vh);}
+    100% {transform: translate(40vw, 50vh);}
+  }
+
+
+    .floating4 {
+        position: fixed;
+        animation-name: float4;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+  
+    @keyframes float4 {
+      0%   { transform: translate(90vw, 50vh);}
+      50%  {transform: translate(90vw, 10vh);}
+      100% {transform: translate(90vw, 50vh);}
+    }
+
+
+    .floating5 {
+        position: fixed;
+        animation-name: float5;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+  
+    @keyframes float5 {
+      0%   { transform: translate(5vw, 80vh);}
+      50%  {transform: translate(5vw, 10vh);}
+      100% {transform: translate(5vw, 80vh);}
+    }
+    
+
+    .floating6 {
+        position: fixed;
+        animation-name: float6;
+        animation-duration: 19s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+  
+    @keyframes float6 {
+      0%   { transform: translate(70vw, 90vh);}
+      50%  {transform: translate(70vw, 50vh);}
+      100% {transform: translate(70vw, 90vh);}
+    }
+    
+
+    .floating7 {
+        position: fixed;
+        animation-name: float7;
+        animation-duration: 14s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+  
+    @keyframes float7 {
+      0%   { transform: translate(55vw, 70vh);}
+      50%  {transform: translate(55vw, 30vh);}
+      100% {transform: translate(55vw, 70vh);}
+    }
+
+    .floating8 {
+        position: fixed;
+        animation-name: float8;
+        animation-duration: 16s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+  
+    @keyframes float8 {
+      0%   { transform: translate(30vw, 70vh);}
+      50%  {transform: translate(30vw, 10vh);}
+      100% {transform: translate(30vw, 70vh);}
+    }
+
+
+    .floating9 {
+        position: fixed;
+        animation-name: float9;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+  
+    @keyframes float9 {
+      0%   { transform: translate(40vw, 90vh);}
+      50%  {transform: translate(40vw, 3vh);}
+      100% {transform: translate(40vw, 90vh);}
+    }
+
+
+
+    .floating10 {
+        font-size: 13vw;
+        position: fixed;
+        animation-name: float10;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 0;
+    }
+  
+    @keyframes float10 {
+      0%   { transform: translate(4vw, 90vh);}
+      50%  {transform: translate(4vw, 3vh);}
+      100% {transform: translate(4vw, 90vh);}
+    }
+
+
+    .floating11 {
+        font-size: 13vw;
+        position: fixed;
+        animation-name: float11;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 0;
+
+    }
+  
+    @keyframes float11 {
+      0%   { transform: translate(80vw, 90vh);}
+      50%  {transform: translate(80vw, 3vh);}
+      100% {transform: translate(80vw, 90vh);}
+    }
+
+    .crawl1 {
+        font-size: 5vw;
+        position: fixed;
+        animation-name: crawl1;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+
+    }
+
+      
+    @keyframes crawl1 {
+        0%   { transform: translate(10vw, 80vh);}
+        50%  {transform: translate(40vw, 80vh);}
+        100% {transform: translate(10vw, 80vh);}
+      }
+    
+
+      .crawl2 {
+        font-size: 5vw;
+        position: fixed;
+        animation-name: crawl2;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+
+    }
+
+      
+    @keyframes crawl2 {
+        0%   { transform: translate(60vw, 80vh);}
+        50%  {transform: translate(10vw, 80vh);}
+        100% {transform: translate(60vw, 80vh);}
+      }
+    
+
+
+      .crawl3 {
+        font-size: 7vw;
+        position: fixed;
+        animation-name: crawl3;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+
+      
+    @keyframes crawl3 {
+        0%   { transform: translate(70vw, 78vh);}
+        50%  {transform: translate(5vw, 78vh);}
+        100% {transform: translate(70vw, 78vh);}
+      }
+
+
+      .crawl4 {
+        font-size: 7vw;
+        position: fixed;
+        animation-name: crawl4;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        z-index: 11;
+    }
+
+      
+    @keyframes crawl4 {
+        0%   { transform: translate(5vw, 78vh);}
+        50%  {transform: translate(60vw, 78vh);}
+        100% {transform: translate(5vw, 78vh);}
+      }
+    
+
+
+      .still {
+        font-size: 5vw;
+        position: fixed;
+        z-index: 15;
+        transform: translate(0vw, 90vh)
+        
+    }
+
+    .slide {
+        box-shadow: 10px 5px 10px blue;
+        width: 0;
+        height: 100vh;
+        background-color: red;
+        position:fixed;
+        left:0;
+        top:0;
+        z-index: 12;
+        transition: 1s;
+        overflow-x: hidden;
+    }
+
+    img {
+        margin-left: 2vw;
+        width: 35vw;
+        margin-top: 0.5vw;
+    }
+
+    .button {
+        cursor: help;
+        color: yellow;
+        position:fixed;
+        left:3vw;
+        top:4vw;
+        z-index: 11;
+        transition: 0.5s;
+
+    }
+
+    .button:hover {
+        font-size: 6vw;
+        color: red;
+
+    }
+
+    .close {
+        cursor: grab;
+        font-size: 5vw
+        display: inline-block;
+        margin-left: 30vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
